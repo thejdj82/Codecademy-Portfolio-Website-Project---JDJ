@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb86f09891.js" crossorigin="anonymous"></script>
     <title>JDJ's Portfolio Website</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -27,14 +28,47 @@
         </section>
         
         <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <ul>
-                    <li>Working Backwards Calculator</li>
-                    <li>Portolio Website</li>
-                    <li>Justus Data Website</li>
-                </ul>
-            </div>
+            <h2>Projects</h2>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>Working Backwards Calculator</h3>
+                </summary>
+                <img 
+                    src="" 
+                    alt="image of Working Backwards Calculator" 
+                    class="project-image"
+                />
+                <p class="project-description">
+                    App that takes sales quota, attainment, and average daily spend to calculate full year attainment.
+                </p>
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>JustusData Website</h3>
+                </summary>
+                <img 
+                    src="Screen Shot 2022-12-11 at 9.09.13 PM.png" 
+                    alt="image of Justus Data Website" 
+                    class="project-image"
+                />
+                <p class="project-description">
+                    Published website of personal fintech strat-up JustusData. Built with HTML 5, CSS, JS.
+                </p>
+            </details>
+            <details class="project">
+                <summary class="project-title">
+                    <h3>JDJ's Portfolio Website</h3>
+                </summary>
+                <img 
+                    src="Screen Shot 2022-12-11 at 9.51.23 PM.png" 
+                    alt="image of JDJ's Portfolio Website" 
+                    class="project-image"
+                />
+                <p class="project-description">
+                    This website.
+                </p>
+            </details>
+        
         </section>
         <section id="skills">
             <div class="container">
@@ -45,18 +79,12 @@
                     <tr>JS</tr>
                 </table>
                 <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-html5"></i>
             </div>
         </section>
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <ul>
-                    <li>LinkedIn (icon)</li>
-                    <li>Github (icon)</li>
-                    <li>email (icon)</li>
-                </ul>
-            </div>
-        </section>
+
     </main>
     <footer>
         <p>Made in Chicago with <span class="heart">♥</span></p>
