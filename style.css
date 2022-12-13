@@ -64,7 +64,7 @@ nav li a:hover {
 }
 
 .photo {
-    width: 300px;
+    width: 250px;
     flex-shrink: 0;
 }
 
@@ -134,4 +134,19 @@ footer {
     font-size: 2em;
     width: 2em;
     margin-top: 8px;
+  }
+
+  #contact {
+    margin-left: 10px;
+  }
+
+  .contact-container > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 8px;
+  }
+
+  .contact-container a {
+    text-decoration: none;
+    color:#111;
   }
