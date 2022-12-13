@@ -4,6 +4,7 @@ html {
 
 html, body {
     height: 100%;
+    background-color: white;
 }
 
 body {
@@ -85,7 +86,7 @@ nav li a:hover {
 }
 
 .project-image {
-    width: 50%;
+    width: 40%;
 }
 
 .project-title h3 {
@@ -102,6 +103,13 @@ summary {
 
 #skills {
     margin-left: 10px;
+}
+
+.button-container {
+    margin-top: 16px;
+    display: flex;
+    float: right;
+    margin-right: 16px;
 }
 
 footer {
